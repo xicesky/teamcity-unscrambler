@@ -1,0 +1,12 @@
+= Teamcity unscrambler
+
+[source,bash]
+----
+docker build . -t xicesky/unscrambler
+docker run --rm -it xicesky/unscrambler zxx1234...
+----
+
+== Notes
+
+Python 3.10 doesn't work (pycrypto problem)
+https://stackoverflow.com/questions/70705404/systemerror-py-ssize-t-clean-macro-must-be-defined-for-formats
